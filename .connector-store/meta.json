@@ -3,7 +3,7 @@
     "owner": "WSO2",
     "category": "Local authenticator",
     "documentationUrl": "https://github.com/wso2-extensions/identity-outbound-auth-passwordPolicy/blob/master/docs/README.md",
-    "description": "The Password Policy authenticator allows you to reset the password during the authentication flow, if the password is expired, the user will be prompted to reset the password and sending email notification before the password expiry can be enabled through this.",
+    "description": "The Password Policy authenticator allows you to reset the password during the authentication flow, if the password is expired, the user will be prompted to reset the password and sending email notification before the password expiry can be enabled through this. On IS 7.1.0, v4.0.11 requires update level UPDATE_LEVEL_TBD or later; use v4.0.9 on earlier update levels.",
     "status": "Active",
     "labels": ["Password-Reset-Enforcer"],
     "releases": [
@@ -17,6 +17,18 @@
             "tagName": "v4.0.11",
             "products": [
                 "IS 7.2.0"
+            ]
+        },
+        {
+            "tagName": "v4.0.11",
+            "products": [
+                "IS 7.1.0"
+            ]
+        },
+        {
+            "tagName": "v4.0.9",
+            "products": [
+                "IS 7.1.0"
             ]
         },
         {
